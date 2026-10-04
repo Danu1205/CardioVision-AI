@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+python-dotenv
+PyJWT
+pwdlib[argon2]
+python-multipart
+pydantic
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+Pillow
+nibabel
+matplotlib

@@ -1,0 +1,56 @@
+﻿# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+.env.*
+!.env.example
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/uploads/
+backend/dataset/
+
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Project review notes
+MRIUpload_full.txt
+mri_upload_review.txt
+patient_batch_review.txt
+patient_final_review.txt
+patient_integration_context.txt
+patient_missing_review.txt
+
+# Local files
+*.backup
+backend/backups/
+backend/studies.json
+src/pages/admin/New Text Document.txt
+src/pages/reports/Reports.tsx.bak
